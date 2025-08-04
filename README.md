@@ -34,10 +34,10 @@
 ---
 
 🙏 Acknowledgments
+
 Ali Bouali – YouTube
 
 Techzit Solution
 
 ChatGPT
-  git clone https://github.com/YOUR_USERNAME/syncub.git
-   cd syncub
+ 
