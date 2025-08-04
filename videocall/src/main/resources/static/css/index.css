@@ -1,0 +1,172 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    
+    
+    
+     /* ---------- Header ---------- */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 12px 24px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+    }
+
+    .logo {
+      height: 30px;
+      margin-right: 10px;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 500;
+      color: #3c4043;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      color: #5f6368;
+      font-size: 14px;
+    }
+
+    .icon-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+    }
+
+    .avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+
+    .container {
+      display: flex;
+      justify-content: center;
+      padding-left:150px;
+      pading-top:1px;
+    }
+
+    .main {
+      width: 50%;
+      padding-right: 30px;
+    }
+
+    .main h1 {
+      font-size: 32px;
+      color: #202124;
+    }
+
+    .main p {
+      font-size: 18px;
+      color: #5f6368;
+      margin-bottom: 20px;
+    }
+
+    .new-meeting {
+      margin-bottom: 30px;
+    }
+
+    .new-meeting button,
+    .join-meeting button {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .join-meeting {
+      margin-top: 15px;
+    }
+
+    .join-meeting input {
+      padding: 10px;
+      font-size: 16px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      width: 250px;
+      margin-right: 10px;
+    }
+
+    .connected-users {
+      margin-top: 40px;
+      border-top: 1px solid #ddd;
+      padding-top: 20px;
+    }
+
+    .connected-users h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    #userList {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #userList li {
+      padding: 8px 0;
+      border-bottom: 1px solid #eee;
+    }
+
+    #logoutBtn {
+      background-color: green;
+      color: white;
+      border: none;
+      padding: 10px 16px;
+      font-size: 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      float: right;
+      margin-bottom: 10px;
+    }
+
+    .image-section {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .image-container {
+      position: relative;
+    }
+
+    .carousel-img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 10px;
+    }
+
+    .carousel-controls {
+      margin-top: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .carousel-controls button {
+      background-color: #f1f3f4;
+      border: none;
+      font-size: 20px;
+      padding: 8px 12px;
+      border-radius: 50%;
+      cursor: pointer;
+    }

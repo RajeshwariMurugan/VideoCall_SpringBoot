@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SYNCUB</title>
+  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="/css/index.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+  <style>
+
+  </style>
+</head>
+<body>
+
+ <div class="header">
+    <div class="header-left">
+      <img class="logo" src="/Images/Group 6284.png"  alt="SYNCUB Logo">
+    </div>
+    <div class="header-right">
+<span id="currentTime"></span>
+      <button class="icon-btn"><i class="fa fa-question-circle-o"></i></button>
+      <button class="icon-btn"><i class="fa fa-cog"></i></button>
+      <img class="avatar" src="https://www.w3schools.com/w3images/avatar2.png" alt="User Profile Avatar">
+    </div>
+  </div>
+  
+  <div class="container">
+    <!-- Left side: meeting controls -->
+    <div class="main">
+      <h1>Video calls and meetings for everyone</h1>
+      <p>Connect, collaborate, and celebrate from anywhere with SYNCUB (Remote collaboration tools)</p>
+
+      <div class="new-meeting">
+        <button id="newMeetingBtn">New meeting</button>
+        <div class="join-meeting">
+          <input type="text" placeholder="Enter a code or link" id="meetingName" />
+          <button id="joinMeetingBtn">Join</button>
+        </div>
+      </div>
+
+    <div class="connected-users">
+            <button id="logoutBtn">LogIn</button>
+            <h2>Connected Users</h2>
+            <ul id="userList"></ul>
+        </div>
+
+    </div>
+
+    <!-- Right side: image carousel -->
+    <div class="image-section">
+      <div class="image-container">
+ <img id="carouselImage" class="carousel-img" src="/Images/connect.jfif" alt="Slide image">      </div>
+      <div class="carousel-controls">
+        <button onclick="prevSlide()"><i class="fa fa-chevron-left"></i></button>
+        <button onclick="nextSlide()"><i class="fa fa-chevron-right"></i></button>
+      </div>
+    </div>
+  </div>
+<script src="/js/index.js"></script>
+</body>
+</html>
